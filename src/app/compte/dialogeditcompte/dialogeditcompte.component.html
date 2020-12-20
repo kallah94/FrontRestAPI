@@ -1,0 +1,56 @@
+<h2 mat-dialog-title>Update current Compte</h2>
+<mat-dialog-content class="mat-typography">
+<div class="mat-elevation-z8 create">
+  <mat-vertical-stepper  #stepper>
+  <mat-step [stepControl]="firstFormGroup">
+    <form [formGroup]="firstFormGroup">
+      <ng-template matStepLabel>Solde et Decouvert</ng-template>
+      <mat-form-field class="sep">
+        <mat-label>Solde</mat-label>
+        <input matInput placeholder="Compte Solde" formControlName="solde" required/>
+      </mat-form-field>
+      <mat-form-field class="sep">
+        <mat-label>Decouvert</mat-label>
+        <input matInput placeholder="Compte Decouvert" formControlName="decouverte" required/>
+      </mat-form-field>
+      <div>
+        <button mat-button matStepperNext>Next</button>
+      </div>
+    </form>
+    </mat-step>
+    <mat-step [stepControl]="secondFormGroup">
+    <form [formGroup]="secondFormGroup">
+      <ng-template matStepLabel>Agence et Client du compte</ng-template>
+      <mat-form-field class="sep">
+        <mat-label>AgenceCode</mat-label>
+        <input matInput placeholder="Compte agence" formControlName="agenceCode" required/>
+      </mat-form-field>
+      <mat-form-field class="sep">
+        <mat-label>ClientId</mat-label>
+        <input matInput placeholder="Compte Client" formControlName="clientId" required/>
+      </mat-form-field>
+      <div>
+        <button mat-button matStepperPrevious>Back</button>
+        <button mat-button matStepperNext>Next</button>
+      </div>
+    </form>
+    </mat-step>
+    <mat-step>
+    <ng-template matStepLabel>Done</ng-template>
+    <p>You are now done.</p>
+    <div>
+      <button mat-button matStepperPrevious>Back</button>
+      <button mat-stroked-button color="warn" (click)="stepper.reset()">Reset</button>
+    </div>
+  </mat-step>
+  </mat-vertical-stepper>
+</div>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+<button mat-mini-fab color="warn" mat-dialog-close>
+    <mat-icon>clear</mat-icon>
+</button>
+  <button mat-mini-fab color="primary" (click)="submit()" [mat-dialog-close]="true"  cdkFocusInitial>
+    <mat-icon>done</mat-icon>
+  </button>
+</mat-dialog-actions>

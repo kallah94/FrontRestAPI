@@ -1,0 +1,38 @@
+table {
+  width: 100%;
+  padding: 20px;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+  padding: 20px;
+}
+
+td, th {
+  width: 25%;
+}
+
+.add {
+  margin: 20px;
+}
+
+.mat-stepper-vertical {
+  margin-top: 8px;
+}
+
+.mat-form-field {
+  margin-top: 16px;
+}
+
+.header {
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: large;
+
+}
+
+.create{
+  padding-left: 20%;
+  padding-right: 20%;
+}

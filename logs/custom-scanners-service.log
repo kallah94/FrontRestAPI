@@ -1,0 +1,613 @@
+2020-12-10 12:00:03.650  INFO 21499 --- [main] c.h.a.c.CustomScannersServiceApplication : Starting CustomScannersServiceApplication on parrot with PID 21499 (/home/devtool/.vscode/extensions/hcltechnologies.hclappscancodesweep-1.1.3/lib/custom-scanners-service-1.0.10.jar started by devtool in /media/devtool/77FC-5305/restFulService/FrontEnd)
+2020-12-10 12:00:03.662  INFO 21499 --- [main] c.h.a.c.CustomScannersServiceApplication : No active profile set, falling back to default profiles: default
+2020-12-10 12:00:08.748  INFO 21499 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9221 (http)
+2020-12-10 12:00:08.772  INFO 21499 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-10 12:00:08.772  INFO 21499 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-12-10 12:00:08.875  INFO 21499 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-10 12:00:08.876 DEBUG 21499 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2020-12-10 12:00:08.877  INFO 21499 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4811 ms
+2020-12-10 12:00:09.205 DEBUG 21499 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2020-12-10 12:00:09.205 DEBUG 21499 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2020-12-10 12:00:15.782 DEBUG 21499 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 19 mappings in 'requestMappingHandlerMapping'
+2020-12-10 12:00:15.945  INFO 21499 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-10 12:00:16.418  INFO 21499 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-10 12:00:16.619  INFO 21499 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-10 12:00:16.807 DEBUG 21499 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-12-10 12:00:17.453  INFO 21802 --- [main] c.h.a.c.CustomScannersServiceApplication : Starting CustomScannersServiceApplication on parrot with PID 21802 (/home/devtool/.vscode/extensions/hcltechnologies.hclappscancodesweep-1.1.3/lib/custom-scanners-service-1.0.10.jar started by devtool in /media/devtool/77FC-5305/restFulService/FrontEnd)
+2020-12-10 12:00:17.457  INFO 21802 --- [main] c.h.a.c.CustomScannersServiceApplication : No active profile set, falling back to default profiles: default
+2020-12-10 12:00:17.806 DEBUG 21499 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-12-10 12:00:17.819 DEBUG 21499 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-12-10 12:00:17.952  INFO 21499 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-12-10 12:00:18.167  INFO 21499 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-12-10 12:00:18.330  INFO 21499 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-12-10 12:00:19.258  INFO 21499 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9221 (http) with context path ''
+2020-12-10 12:00:19.271  INFO 21499 --- [main] c.h.a.c.CustomScannersServiceApplication : Started CustomScannersServiceApplication in 21.482 seconds (JVM running for 30.895)
+2020-12-10 12:00:20.988  INFO 21802 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9221 (http)
+2020-12-10 12:00:21.016  INFO 21802 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-10 12:00:21.017  INFO 21802 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-12-10 12:00:21.179  INFO 21802 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-10 12:00:21.180 DEBUG 21802 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2020-12-10 12:00:21.181  INFO 21802 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3656 ms
+2020-12-10 12:00:21.527 DEBUG 21802 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2020-12-10 12:00:21.528 DEBUG 21802 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2020-12-10 12:00:24.433 DEBUG 21802 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 19 mappings in 'requestMappingHandlerMapping'
+2020-12-10 12:00:24.501  INFO 21802 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-10 12:00:24.602  INFO 21802 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-10 12:00:24.720  INFO 21802 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-10 12:00:24.750 DEBUG 21802 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-12-10 12:00:24.912 DEBUG 21802 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-12-10 12:00:24.929 DEBUG 21802 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-12-10 12:00:25.018  INFO 21802 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-12-10 12:00:25.056  INFO 21802 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-12-10 12:00:25.110  INFO 21802 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-12-10 12:00:25.454  INFO 21802 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-12-10 12:00:25.508  INFO 21802 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-10 12:00:25.513 ERROR 21802 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9221 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9221 or configure this application to listen on another port.
+
+2020-12-10 12:00:25.526  INFO 21802 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-10 12:15:46.172  INFO 21499 --- [http-nio-9221-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-10 12:15:46.381  INFO 21499 --- [http-nio-9221-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-10 12:15:46.383 DEBUG 21499 --- [http-nio-9221-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2020-12-10 12:15:46.584 DEBUG 21499 --- [http-nio-9221-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-12-10 12:15:46.585  INFO 21499 --- [http-nio-9221-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 202 ms
+2020-12-10 12:15:46.858 DEBUG 21499 --- [http-nio-9221-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/v1/scanRules", parameters={}
+2020-12-10 12:15:46.949 DEBUG 21499 --- [http-nio-9221-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getScanRules(String[])
+2020-12-10 12:15:47.645 DEBUG 21499 --- [http-nio-9221-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 12:15:47.924 DEBUG 21499 --- [http-nio-9221-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{Golang={com.ouncelabs.languagelite.golang.rules.CommMisconfig=CustomScannersServiceScanRule{ruleNam (truncated)...]
+2020-12-10 12:15:48.174 DEBUG 21499 --- [http-nio-9221-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 12:15:55.341 DEBUG 21499 --- [http-nio-9221-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/v1/scanRules", parameters={}
+2020-12-10 12:15:55.344 DEBUG 21499 --- [http-nio-9221-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getScanRules(String[])
+2020-12-10 12:15:55.346 DEBUG 21499 --- [http-nio-9221-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 12:15:55.348 DEBUG 21499 --- [http-nio-9221-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{Golang={com.ouncelabs.languagelite.golang.rules.CommMisconfig=CustomScannersServiceScanRule{ruleNam (truncated)...]
+2020-12-10 12:15:55.353 DEBUG 21499 --- [http-nio-9221-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 18:51:49.790  INFO 29521 --- [main] c.h.a.c.CustomScannersServiceApplication : Starting CustomScannersServiceApplication on parrot with PID 29521 (/home/devtool/.vscode/extensions/hcltechnologies.hclappscancodesweep-1.1.3/lib/custom-scanners-service-1.0.10.jar started by devtool in /media/devtool/77FC-5305/restFulService/FrontEnd)
+2020-12-10 18:51:49.809  INFO 29521 --- [main] c.h.a.c.CustomScannersServiceApplication : No active profile set, falling back to default profiles: default
+2020-12-10 18:51:56.333  INFO 29521 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9221 (http)
+2020-12-10 18:51:56.389  INFO 29521 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-10 18:51:56.389  INFO 29521 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-12-10 18:51:56.652  INFO 29521 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-10 18:51:56.652 DEBUG 29521 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2020-12-10 18:51:56.652  INFO 29521 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5322 ms
+2020-12-10 18:51:56.877 DEBUG 29521 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2020-12-10 18:51:56.877 DEBUG 29521 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2020-12-10 18:52:00.488 DEBUG 29521 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 19 mappings in 'requestMappingHandlerMapping'
+2020-12-10 18:52:00.607  INFO 29521 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-10 18:52:00.922  INFO 29521 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-10 18:52:01.065  INFO 29521 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-10 18:52:02.131 DEBUG 29521 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-12-10 18:52:02.930 DEBUG 29521 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-12-10 18:52:02.945 DEBUG 29521 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-12-10 18:52:03.198  INFO 29521 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-12-10 18:52:03.285  INFO 29521 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-12-10 18:52:03.367  INFO 29521 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-12-10 18:52:03.755  INFO 29521 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9221 (http) with context path ''
+2020-12-10 18:52:03.768  INFO 29521 --- [main] c.h.a.c.CustomScannersServiceApplication : Started CustomScannersServiceApplication in 16.637 seconds (JVM running for 19.468)
+2020-12-10 18:52:04.298  INFO 29521 --- [http-nio-9221-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-10 18:52:04.298  INFO 29521 --- [http-nio-9221-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-10 18:52:04.299 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2020-12-10 18:52:04.307 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-12-10 18:52:04.307  INFO 29521 --- [http-nio-9221-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-12-10 18:52:04.336 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 18:52:04.367 DEBUG 29521 --- [http-nio-9221-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 18:52:04.551 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 18:52:04.594 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 18:52:04.634 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 18:54:48.168 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/v1/scanRules", parameters={}
+2020-12-10 18:54:48.169 DEBUG 29521 --- [http-nio-9221-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getScanRules(String[])
+2020-12-10 18:54:48.170 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 18:54:48.173 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{Golang={com.ouncelabs.languagelite.golang.rules.CommMisconfig=CustomScannersServiceScanRule{ruleNam (truncated)...]
+2020-12-10 18:54:48.259 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 18:54:49.916 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/v1/scanRules", parameters={}
+2020-12-10 18:54:49.917 DEBUG 29521 --- [http-nio-9221-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getScanRules(String[])
+2020-12-10 18:54:49.918 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 18:54:49.920 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{Golang={com.ouncelabs.languagelite.golang.rules.CommMisconfig=CustomScannersServiceScanRule{ruleNam (truncated)...]
+2020-12-10 18:54:49.926 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 18:55:02.377 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 18:55:02.378 DEBUG 29521 --- [http-nio-9221-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 18:55:04.156 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 18:55:04.158 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 18:55:04.164 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 18:59:42.133 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 18:59:42.152 DEBUG 29521 --- [http-nio-9221-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 18:59:42.160 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 18:59:42.161 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 18:59:42.162 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 18:59:42.480 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 18:59:42.481 DEBUG 29521 --- [http-nio-9221-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 18:59:42.492 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 18:59:42.494 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 18:59:42.497 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 18:59:43.047 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 18:59:43.049 DEBUG 29521 --- [http-nio-9221-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 18:59:43.057 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 18:59:43.058 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 18:59:43.059 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 18:59:43.743 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 18:59:43.744 DEBUG 29521 --- [http-nio-9221-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 18:59:43.752 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 18:59:43.752 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 18:59:43.753 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 18:59:44.228 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 18:59:44.229 DEBUG 29521 --- [http-nio-9221-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 18:59:44.236 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 18:59:44.237 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 18:59:44.238 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:25:02.820 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 19:25:02.843 DEBUG 29521 --- [http-nio-9221-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 19:25:02.865 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:25:02.865 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 19:25:02.867 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:25:03.157 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 19:25:03.157 DEBUG 29521 --- [http-nio-9221-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 19:25:03.164 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:25:03.165 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 19:25:03.166 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:25:03.682 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 19:25:03.682 DEBUG 29521 --- [http-nio-9221-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 19:25:03.692 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:25:03.693 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 19:25:03.694 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:27:38.172 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 19:27:38.173 DEBUG 29521 --- [http-nio-9221-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 19:27:38.181 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:27:38.181 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 19:27:38.184 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:28:49.185 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 19:28:49.186 DEBUG 29521 --- [http-nio-9221-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 19:28:49.190 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:28:49.190 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 19:28:49.192 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:28:49.654 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 19:28:49.654 DEBUG 29521 --- [http-nio-9221-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 19:28:49.658 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:28:49.658 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 19:28:49.660 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:31:19.503 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 19:31:19.504 DEBUG 29521 --- [http-nio-9221-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 19:31:19.520 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:31:19.521 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 19:31:19.526 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:31:20.101 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 19:31:20.102 DEBUG 29521 --- [http-nio-9221-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 19:31:20.108 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:31:20.109 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 19:31:20.115 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:39:05.228 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 19:39:05.229 DEBUG 29521 --- [http-nio-9221-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 19:39:05.233 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:39:05.234 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 19:39:05.236 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:39:17.247 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 19:39:17.249 DEBUG 29521 --- [http-nio-9221-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 19:39:17.324 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:39:17.324 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 19:39:17.327 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:39:17.643 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 19:39:17.644 DEBUG 29521 --- [http-nio-9221-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 19:39:17.649 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:39:17.650 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 19:39:17.652 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:43:39.586 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 19:43:39.587 DEBUG 29521 --- [http-nio-9221-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 19:43:39.790 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:43:39.794 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[CustomScannersServiceFinding{file='client.service.ts', lineNumb (truncated)...]
+2020-12-10 19:43:40.085 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:43:40.384 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 19:43:40.385 DEBUG 29521 --- [http-nio-9221-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 19:43:40.392 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:43:40.394 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[CustomScannersServiceFinding{file='client.service.ts', lineNumb (truncated)...]
+2020-12-10 19:43:40.397 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:45:45.310 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 19:45:45.311 DEBUG 29521 --- [http-nio-9221-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 19:45:45.311 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:45:45.314 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 19:45:45.315 DEBUG 29521 --- [http-nio-9221-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 19:45:45.327 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:45:45.328 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 19:45:45.330 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:45:45.454 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 19:45:45.462 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:45:45.614 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 19:45:45.615 DEBUG 29521 --- [http-nio-9221-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 19:45:45.616 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:45:45.616 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 19:45:45.619 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:45:45.927 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 19:45:45.928 DEBUG 29521 --- [http-nio-9221-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 19:45:45.928 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:45:45.928 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 19:45:45.929 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:45:45.933 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 19:45:45.934 DEBUG 29521 --- [http-nio-9221-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 19:45:45.939 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:45:45.939 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 19:45:45.940 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:45:49.711 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 19:45:49.712 DEBUG 29521 --- [http-nio-9221-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 19:45:49.713 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:45:49.713 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 19:45:49.713 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 19:45:49.714 DEBUG 29521 --- [http-nio-9221-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 19:45:49.717 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:45:49.719 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:45:49.720 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 19:45:49.721 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:47:31.118 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 19:47:31.119 DEBUG 29521 --- [http-nio-9221-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 19:47:31.120 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:47:31.120 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 19:47:31.121 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:47:31.126 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 19:47:31.128 DEBUG 29521 --- [http-nio-9221-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 19:47:31.133 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:47:31.134 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 19:47:31.140 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:47:31.529 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 19:47:31.531 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 19:47:31.537 DEBUG 29521 --- [http-nio-9221-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 19:47:31.559 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:47:31.559 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 19:47:31.560 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:47:31.561 DEBUG 29521 --- [http-nio-9221-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 19:47:31.565 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:47:31.565 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 19:47:31.566 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:47:31.855 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 19:47:31.856 DEBUG 29521 --- [http-nio-9221-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 19:47:31.856 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:47:31.856 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 19:47:31.857 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:47:55.797 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 19:47:55.800 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 19:47:55.801 DEBUG 29521 --- [http-nio-9221-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 19:47:55.807 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:47:55.808 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 19:47:55.809 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:47:55.847 DEBUG 29521 --- [http-nio-9221-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 19:47:55.848 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:47:55.848 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 19:47:55.849 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:47:56.226 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 19:47:56.227 DEBUG 29521 --- [http-nio-9221-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 19:47:56.228 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:47:56.228 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 19:47:56.229 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:47:56.231 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 19:47:56.232 DEBUG 29521 --- [http-nio-9221-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 19:47:56.239 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:47:56.240 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 19:47:56.242 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:54:57.078 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 19:54:57.080 DEBUG 29521 --- [http-nio-9221-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 19:54:57.080 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 19:54:57.080 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:54:57.080 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 19:54:57.081 DEBUG 29521 --- [http-nio-9221-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 19:54:57.081 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:54:57.086 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:54:57.086 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 19:54:57.087 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:54:57.504 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 19:54:57.505 DEBUG 29521 --- [http-nio-9221-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 19:54:57.506 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 19:54:57.508 DEBUG 29521 --- [http-nio-9221-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 19:54:57.506 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:54:57.510 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 19:54:57.514 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:54:57.518 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:54:57.518 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 19:54:57.519 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:55:01.008 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 19:55:01.009 DEBUG 29521 --- [http-nio-9221-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 19:55:01.010 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:55:01.010 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 19:55:01.011 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 19:55:01.011 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:55:01.011 DEBUG 29521 --- [http-nio-9221-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 19:55:01.014 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:55:01.014 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[CustomScannersServiceFinding{file='compte.service.ts', lineNumb (truncated)...]
+2020-12-10 19:55:01.016 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:55:01.369 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 19:55:01.370 DEBUG 29521 --- [http-nio-9221-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 19:55:01.370 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 19:55:01.370 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:55:01.370 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 19:55:01.371 DEBUG 29521 --- [http-nio-9221-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 19:55:01.371 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:55:01.375 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:55:01.376 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[CustomScannersServiceFinding{file='compte.service.ts', lineNumb (truncated)...]
+2020-12-10 19:55:01.377 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:55:08.098 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 19:55:08.100 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 19:55:08.100 DEBUG 29521 --- [http-nio-9221-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 19:55:08.101 DEBUG 29521 --- [http-nio-9221-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 19:55:08.102 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:55:08.102 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 19:55:08.102 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:55:08.104 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:55:08.105 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 19:55:08.106 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:55:08.534 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 19:55:08.536 DEBUG 29521 --- [http-nio-9221-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 19:55:08.536 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 19:55:08.536 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:55:08.536 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 19:55:08.536 DEBUG 29521 --- [http-nio-9221-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 19:55:08.537 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:55:08.540 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:55:08.540 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 19:55:08.541 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:55:08.930 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 19:55:08.931 DEBUG 29521 --- [http-nio-9221-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 19:55:08.932 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:55:08.934 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 19:55:08.934 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 19:55:08.936 DEBUG 29521 --- [http-nio-9221-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 19:55:08.936 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:55:08.944 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:55:08.945 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 19:55:08.947 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:55:21.521 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 19:55:21.521 DEBUG 29521 --- [http-nio-9221-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 19:55:21.522 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:55:21.522 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 19:55:21.522 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 19:55:21.523 DEBUG 29521 --- [http-nio-9221-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 19:55:21.523 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:55:21.529 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:55:21.530 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 19:55:21.531 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:55:21.952 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 19:55:21.953 DEBUG 29521 --- [http-nio-9221-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 19:55:21.953 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 19:55:21.953 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:55:21.954 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 19:55:21.954 DEBUG 29521 --- [http-nio-9221-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 19:55:21.954 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:55:21.958 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:55:21.958 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 19:55:21.959 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:55:22.284 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 19:55:22.284 DEBUG 29521 --- [http-nio-9221-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 19:55:22.285 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:55:22.285 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 19:55:22.286 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:55:22.287 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 19:55:22.287 DEBUG 29521 --- [http-nio-9221-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 19:55:22.292 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:55:22.293 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 19:55:22.294 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:56:45.799 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 19:56:45.800 DEBUG 29521 --- [http-nio-9221-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 19:56:45.800 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:56:45.800 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 19:56:45.801 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:56:45.813 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 19:56:45.814 DEBUG 29521 --- [http-nio-9221-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 19:56:45.817 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:56:45.817 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 19:56:45.818 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:56:46.104 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 19:56:46.105 DEBUG 29521 --- [http-nio-9221-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 19:56:46.105 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:56:46.106 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 19:56:46.106 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:56:46.450 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 19:56:46.450 DEBUG 29521 --- [http-nio-9221-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 19:56:46.451 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:56:46.451 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 19:56:46.451 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 19:56:46.452 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 19:56:46.452 DEBUG 29521 --- [http-nio-9221-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 19:56:46.455 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 19:56:46.458 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 19:56:46.458 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:10:32.580 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 21:10:32.581 DEBUG 29521 --- [http-nio-9221-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 21:10:32.581 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:10:32.582 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 21:10:32.582 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 21:10:32.582 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:10:32.583 DEBUG 29521 --- [http-nio-9221-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 21:10:32.592 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:10:32.593 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 21:10:32.595 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:10:33.051 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 21:10:33.052 DEBUG 29521 --- [http-nio-9221-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 21:10:33.053 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 21:10:33.054 DEBUG 29521 --- [http-nio-9221-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 21:10:33.060 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:10:33.061 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 21:10:33.061 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:10:33.067 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:10:33.067 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 21:10:33.068 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:10:33.358 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 21:10:33.358 DEBUG 29521 --- [http-nio-9221-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 21:10:33.359 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:10:33.359 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 21:10:33.360 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:10:33.815 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 21:10:33.817 DEBUG 29521 --- [http-nio-9221-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 21:10:33.818 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:10:33.818 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 21:10:33.820 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:10:33.842 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 21:10:33.843 DEBUG 29521 --- [http-nio-9221-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 21:10:33.849 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:10:33.849 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 21:10:33.850 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:10:51.196 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 21:10:51.196 DEBUG 29521 --- [http-nio-9221-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 21:10:51.197 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:10:51.197 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 21:10:51.197 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 21:10:51.197 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:10:51.198 DEBUG 29521 --- [http-nio-9221-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 21:10:51.204 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:10:51.204 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 21:10:51.205 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:10:51.689 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 21:10:51.690 DEBUG 29521 --- [http-nio-9221-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 21:10:51.691 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:10:51.691 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 21:10:51.692 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 21:10:51.693 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:10:51.693 DEBUG 29521 --- [http-nio-9221-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 21:10:51.706 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:10:51.706 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 21:10:51.706 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:10:52.252 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 21:10:52.254 DEBUG 29521 --- [http-nio-9221-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 21:10:52.256 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:10:52.258 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 21:10:52.259 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 21:10:52.260 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:10:52.260 DEBUG 29521 --- [http-nio-9221-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 21:10:52.277 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:10:52.277 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 21:10:52.279 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:11:26.259 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 21:11:26.259 DEBUG 29521 --- [http-nio-9221-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 21:11:26.260 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:11:26.260 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 21:11:26.260 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:11:26.261 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 21:11:26.262 DEBUG 29521 --- [http-nio-9221-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 21:11:26.293 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:11:26.293 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 21:11:26.297 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:11:26.654 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 21:11:26.654 DEBUG 29521 --- [http-nio-9221-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 21:11:26.655 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:11:26.655 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 21:11:26.656 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:11:26.657 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 21:11:26.658 DEBUG 29521 --- [http-nio-9221-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 21:11:26.664 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:11:26.666 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 21:11:26.667 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:11:56.422 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 21:11:56.422 DEBUG 29521 --- [http-nio-9221-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 21:11:56.423 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:11:56.423 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 21:11:56.424 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:11:56.426 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 21:11:56.427 DEBUG 29521 --- [http-nio-9221-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 21:11:56.434 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:11:56.435 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[CustomScannersServiceFinding{file='agence.service.ts', lineNumb (truncated)...]
+2020-12-10 21:11:56.439 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:11:56.848 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 21:11:56.848 DEBUG 29521 --- [http-nio-9221-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 21:11:56.849 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:11:56.849 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 21:11:56.850 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:11:56.851 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 21:11:56.852 DEBUG 29521 --- [http-nio-9221-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 21:11:56.877 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:11:56.878 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[CustomScannersServiceFinding{file='agence.service.ts', lineNumb (truncated)...]
+2020-12-10 21:11:56.880 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:14:27.181 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 21:14:27.182 DEBUG 29521 --- [http-nio-9221-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 21:14:27.182 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:14:27.183 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 21:14:27.184 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:14:27.187 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 21:14:27.188 DEBUG 29521 --- [http-nio-9221-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 21:14:27.195 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:14:27.197 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[CustomScannersServiceFinding{file='client.service.ts', lineNumb (truncated)...]
+2020-12-10 21:14:27.201 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:14:27.516 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 21:14:27.517 DEBUG 29521 --- [http-nio-9221-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 21:14:27.517 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:14:27.517 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 21:14:27.518 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:14:27.519 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 21:14:27.519 DEBUG 29521 --- [http-nio-9221-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 21:14:27.525 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:14:27.525 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[CustomScannersServiceFinding{file='client.service.ts', lineNumb (truncated)...]
+2020-12-10 21:14:27.527 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:14:47.766 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/v1/ignore/finding", parameters={}
+2020-12-10 21:14:47.767 DEBUG 29521 --- [http-nio-9221-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#createFindingIgnoreRule(CustomScannersServiceFinding)
+2020-12-10 21:14:48.116 DEBUG 29521 --- [http-nio-9221-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [CustomScannersServiceFinding{file='client.service.ts', lineNumber='10', columnNumber='0', language=' (truncated)...]
+2020-12-10 21:14:48.291 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : No match for [*/*], supported: []
+2020-12-10 21:14:48.292 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2020-12-10 21:16:30.446 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 21:16:30.447 DEBUG 29521 --- [http-nio-9221-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 21:16:30.447 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:16:30.447 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 21:16:30.448 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:16:30.454 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 21:16:30.455 DEBUG 29521 --- [http-nio-9221-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 21:16:30.464 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:16:30.464 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 21:16:30.468 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:16:30.760 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 21:16:30.760 DEBUG 29521 --- [http-nio-9221-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 21:16:30.761 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:16:30.761 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 21:16:30.762 DEBUG 29521 --- [http-nio-9221-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:16:30.762 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 21:16:30.763 DEBUG 29521 --- [http-nio-9221-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 21:16:30.768 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:16:30.768 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 21:16:30.769 DEBUG 29521 --- [http-nio-9221-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:16:34.591 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 21:16:34.592 DEBUG 29521 --- [http-nio-9221-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 21:16:34.592 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:16:34.593 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 21:16:34.593 DEBUG 29521 --- [http-nio-9221-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:16:34.594 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 21:16:34.594 DEBUG 29521 --- [http-nio-9221-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 21:16:34.597 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:16:34.598 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[CustomScannersServiceFinding{file='client.service.ts', lineNumb (truncated)...]
+2020-12-10 21:16:34.599 DEBUG 29521 --- [http-nio-9221-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:18:22.148 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 21:18:22.149 DEBUG 29521 --- [http-nio-9221-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 21:18:22.150 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:18:22.150 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 21:18:22.150 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 21:18:22.150 DEBUG 29521 --- [http-nio-9221-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 21:18:22.150 DEBUG 29521 --- [http-nio-9221-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:18:22.157 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:18:22.157 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[CustomScannersServiceFinding{file='client.service.ts', lineNumb (truncated)...]
+2020-12-10 21:18:22.162 DEBUG 29521 --- [http-nio-9221-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:18:22.421 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 21:18:22.422 DEBUG 29521 --- [http-nio-9221-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 21:18:22.423 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:18:22.423 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 21:18:22.424 DEBUG 29521 --- [http-nio-9221-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:18:39.786 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 21:18:39.787 DEBUG 29521 --- [http-nio-9221-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 21:18:39.788 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:18:39.788 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 21:18:39.788 DEBUG 29521 --- [http-nio-9221-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:18:39.791 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 21:18:39.791 DEBUG 29521 --- [http-nio-9221-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 21:18:39.800 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:18:39.809 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 21:18:39.811 DEBUG 29521 --- [http-nio-9221-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:18:40.187 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/v1/ignore/ruleName", parameters={}
+2020-12-10 21:18:40.187 DEBUG 29521 --- [http-nio-9221-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#getRuleNameIgnoreRules()
+2020-12-10 21:18:40.188 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:18:40.188 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[IgnoreRule{ruleName='com.ouncelabs.languagelite.nodejs.Rules.NodeJS_PrivateDataLoggedSink', vulnNam (truncated)...]
+2020-12-10 21:18:40.188 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-12-10 21:18:40.190 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/v1/scanFile", parameters={masked}
+2020-12-10 21:18:40.193 DEBUG 29521 --- [http-nio-9221-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hcl.appscan.customscannersservice.controller.CustomScannersController#runScanFile(MultipartFile, String, int[])
+2020-12-10 21:18:40.213 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2020-12-10 21:18:40.214 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CustomScannerServiceResult{findings=[], articles={}}]
+2020-12-10 21:18:40.217 DEBUG 29521 --- [http-nio-9221-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK

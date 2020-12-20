@@ -1,0 +1,64 @@
+<h2 mat-dialog-title>Update current Agence</h2>
+<mat-dialog-content class="mat-typography">
+<div class="mat-elevation-z8 create">
+  <mat-vertical-stepper  #stepper>
+
+  <mat-step [stepControl]="firstFormGroup">
+    <form [formGroup]="firstFormGroup">
+      <ng-template matStepLabel>Nom Agence</ng-template>
+      <mat-form-field class="sep">
+        <mat-label>Nom</mat-label>
+        <input matInput placeholder="Agence Nom" formControlName="nom" required/>
+      </mat-form-field>
+      <div>
+        <button mat-button matStepperNext>Next</button>
+      </div>
+    </form>
+    </mat-step>
+
+    <mat-step [stepControl]="secondFormGroup">
+    <form [formGroup]="secondFormGroup">
+      <ng-template matStepLabel>Telephone Agence</ng-template>
+      <mat-form-field class="sep">
+        <mat-label>Telephone</mat-label>
+        <input matInput placeholder="Telephone" formControlName="telephone" required/>
+      </mat-form-field>
+      <div>
+        <button mat-button matStepperPrevious>Back</button>
+        <button mat-button matStepperNext>Next</button>
+      </div>
+    </form>
+    </mat-step>
+
+    <mat-step [stepControl]="thirdFormGroup">
+    <form [formGroup]="thirdFormGroup">
+      <ng-template matStepLabel>Addresse Agence</ng-template>
+      <mat-form-field class="sep">
+        <mat-label>Addresse</mat-label>
+        <input matInput placeholder="Addresse" formControlName="adresse" required/>
+      </mat-form-field>
+      <div>
+        <button mat-button matStepperPrevious>Back</button>
+        <button mat-button matStepperNext>Next</button>
+      </div>
+    </form>
+    </mat-step>
+    <mat-step>
+    <ng-template matStepLabel>Done</ng-template>
+    <p>You are now done.</p>
+    <div>
+      <button mat-button matStepperPrevious>Back</button>
+      <button mat-stroked-button color="warn" (click)="stepper.reset()">Reset</button>
+    </div>
+  </mat-step>
+  </mat-vertical-stepper>
+</div>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+<button mat-mini-fab color="warn" mat-dialog-close>
+    <mat-icon>clear</mat-icon>
+</button>
+  <button mat-mini-fab color="primary" (click)="submit()" [mat-dialog-close]="true"  cdkFocusInitial>
+    <mat-icon>done</mat-icon>
+  </button>
+</mat-dialog-actions>

@@ -1,0 +1,14 @@
+<h2 mat-dialog-title align="center">Detail Client</h2>
+<mat-dialog-content class="mat-typography" align="center">
+  <mat-list role="list">
+    <mat-list-item role="listitem">Id: {{data.client.id}}</mat-list-item>
+    <mat-list-item role="listitem">Prenom: {{data.client.prenom}}</mat-list-item>
+    <mat-list-item role="listitem">Nom: {{data.client.nom}}</mat-list-item>
+    <mat-list-item role="listitem">DateNaissance: {{data.client.date_naissance}}</mat-list-item>
+  </mat-list>
+</mat-dialog-content>
+<mat-dialog-actions align="center">
+  <button mat-mini-fab color="warn" [mat-dialog-close]="true"  cdkFocusInitial>
+    <mat-icon>clear</mat-icon>
+  </button>
+</mat-dialog-actions>

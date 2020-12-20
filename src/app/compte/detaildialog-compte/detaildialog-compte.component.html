@@ -1,0 +1,15 @@
+<h2 mat-dialog-title align="center">Detail Client</h2>
+<mat-dialog-content class="mat-typography" align="center">
+  <mat-list role="list">
+    <mat-list-item role="listitem">Id: {{data.compte.id}}</mat-list-item>
+    <mat-list-item role="listitem">Solde: {{data.compte.solde}}</mat-list-item>
+    <mat-list-item role="listitem">Decouvert: {{data.compte.decouverte}}</mat-list-item>
+    <mat-list-item role="listitem">AgenceCode: {{data.compte.agenceCode}}</mat-list-item>
+    <mat-list-item role="listitem">ClientId: {{data.compte.clientId}}</mat-list-item>
+  </mat-list>
+</mat-dialog-content>
+<mat-dialog-actions align="center">
+  <button mat-mini-fab color="warn" [mat-dialog-close]="true"  cdkFocusInitial>
+    <mat-icon>clear</mat-icon>
+  </button>
+</mat-dialog-actions>

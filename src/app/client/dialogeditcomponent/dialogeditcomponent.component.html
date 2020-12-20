@@ -1,0 +1,52 @@
+<h2 mat-dialog-title>Update current Agence</h2>
+<mat-dialog-content class="mat-typography">
+<div class="mat-elevation-z8 create">
+  <mat-vertical-stepper [linear]="true" #stepper>
+    <mat-step [stepControl]="firstFormGroup">
+    <form [formGroup]="firstFormGroup">
+      <ng-template matStepLabel>Prenom et Nom</ng-template>
+      <mat-form-field>
+        <mat-label>Prenom</mat-label>
+        <input matInput placeholder="Client prenom" formControlName="prenom" required/>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Nom</mat-label>
+        <input matInput placeholder="Client Nom" formControlName="nom" required/>
+      </mat-form-field>
+      <div>
+        <button mat-button matStepperNext>Next</button>
+      </div>
+    </form>
+    </mat-step>
+    <mat-step [stepControl]="secondFormGroup">
+    <form [formGroup]="secondFormGroup">
+      <ng-template matStepLabel>Date de Naissance</ng-template>
+      <mat-form-field>
+        <mat-label>Addresse</mat-label>
+        <input matInput placeholder="Client Date De Naissance" formControlName="date_naissance" required/>
+      </mat-form-field>
+      <div>
+        <button mat-button matStepperPrevious>Back</button>
+        <button mat-button matStepperNext>Next</button>
+      </div>
+    </form>
+    </mat-step>
+    <mat-step>
+      <ng-template matStepLabel>Done</ng-template>
+      <p>You are now done.</p>
+      <div>
+        <button mat-button matStepperPrevious>Back</button>
+        <button mat-stroked-button color="warn" (click)="stepper.reset()">Reset</button>
+      </div>
+    </mat-step>
+  </mat-vertical-stepper>
+</div>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+<button mat-mini-fab color="warn" mat-dialog-close>
+    <mat-icon>clear</mat-icon>
+</button>
+  <button mat-mini-fab color="primary" (click)="submit()" [mat-dialog-close]="true"  cdkFocusInitial>
+    <mat-icon>done</mat-icon>
+  </button>
+</mat-dialog-actions>
